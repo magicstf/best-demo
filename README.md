@@ -1,6 +1,6 @@
 # best-demo
 
-> A Vue.js project
+本项目会长期更新，目标是一个可以适用于pc、移动端的初始化项目，本期针对axios进行了简单的封装，并且加入了jsonp,以适用更多的需求场景，欢迎star
 
 ## Build Setup
 
@@ -18,4 +18,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
