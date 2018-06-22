@@ -49,7 +49,7 @@ export default {
            console.log(data);
         },
         async getJsonpData() {
-           let data = await this.$api.jsonp("https://sug.so.360.cn/suggest",{word:"c"},{name:"suggest"});
+           let data = await this.$api.jsonp("https://sug.so.360.cn/suggest",{word:"c",name:"stf"},{name:"suggest"});
            console.log(data);
         }
     }

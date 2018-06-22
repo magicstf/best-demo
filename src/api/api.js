@@ -29,9 +29,9 @@ function formatParam(data) {
     let url='';
     for(var k in data){
         let value=data[k]!==undefined?data[k]:''
-        url+=`${k}=${encodeURIComponent(value)}`
+        url+=`&${k}=${encodeURIComponent(value)}`
     }
-    return  url
+    return  url.substring(1)
 }
 // 对外方法
 export default {
