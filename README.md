@@ -20,7 +20,9 @@ npm run build --report
 ## api.js 说明
 
 jsonp 调用方式
+
 封装代码：
+``` bash
     jsonp(url,data,option) {
         url+=(url.indexOf('?')<0?'?':'&')+formatParam(data)
         return new Promise((resolve,reject) => {
@@ -33,6 +35,8 @@ jsonp 调用方式
             })
         })
     }
+```
+
 使用示例：
 
 let data = await this.$api.jsonp("https://sug.so.360.cn/suggest",{word:"c",name:"stf"},{name:"suggest"});
