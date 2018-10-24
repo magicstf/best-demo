@@ -6,7 +6,7 @@ import router from './router'
 import axios from './api/api.js'
 // 解决移动端300ms点击延迟
 import fastclick from 'fastclick'
-
+import '../node_modules/mockjs/dist/mock.js';
 Vue.config.productionTip = false
 Vue.prototype.$api = axios
 

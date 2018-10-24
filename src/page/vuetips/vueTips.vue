@@ -1,5 +1,5 @@
 <template>
- <div class="item1">
+ <div class="vue-tips">
    <ul>
      <li v-for="item in arr">{{item}}</li>
    </ul>

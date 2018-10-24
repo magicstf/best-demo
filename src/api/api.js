@@ -43,7 +43,7 @@ export default {
                 url,
                 params:param,
             }).then(res => {
-                resolve(res)
+                resolve(res.data)
             })
         })
     },
